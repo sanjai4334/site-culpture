@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zillow</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="mx-auto">
+            <a class="navbar-brand" href="#"><i class="fas fa-code"></i></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link m-2" href="#">Buy</a>
+                    <a class="nav-item nav-link m-2" href="#">Rent</a>
+                    <a class="nav-item nav-link m-2" href="#">Sell</a>
+                    <a class="nav-item nav-link m-2" href="#">Home loans</a>
+                    <a class="nav-item nav-link m-2" href="#">Agent finder</a>
+                </div>
+
+                <a class="navbar-brand mx-auto" m-2 href="#"><img src="./assets/z-logo-default.svg" alt=""></a>
+
+
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link m-2" href="#">Manage Rentals</a>
+                    <a class="nav-item nav-link m-2" href="#">Advertise</a>
+                    <a class="nav-item nav-link m-2" href="#">Help</a>
+                    <a class="nav-item nav-link m-2" href="#">Sign in</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="banner">
+        <p class="h3 text-white">Agents. Tours. Loans. Homes.</p>
+        <div class="search">
+            <input type="text" placeholder="Enter an address, neighborhood, city, or ZIP code">
+            <img src="./assets/search.svg" alt="search" height="20">
+        </div>
+    </div>
+
+
+
+    <div class="d-flex flex-column  mx-5 mt-5 ">
+        <h3>Homes For You</h3>
+        <p>Based on homes you recently viewed</p>
+        <!-- <button id="scrollLeft" class="btn btn-primary mr-2">&#8592;</button>
+        <button id="scrollRight" class="btn btn-primary">&#8594;</button> -->
+    </div>
+
+    <div class="d-flex mx-5 justify-content-center card-deck" style="overflow-x: auto;">
+        <div class="card">
+            <img src="assets/card3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">$689,950</h5>
+                <p class="card-text">2 bds | 2 ba | 1,088 sqft | Active 9210 B Roosevelt Way NE, Seattle, WA, 98115</p>
+                <p class="card-text"><small  >MLS ID =2210203, Grecia Themes. Listing provided by
+                        NWMLS</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/card3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">$669,950</h5>
+                <p class="card-text">2 bds | 2 ba | 1,088 sqft | Active
+                    9210 B Roosevelt Way NE, Seattle, WA, 98115</p>
+                <p class="card-text"><small  >MLS ID =2210203, Grecia Themes. Listing provided by
+                        NWMLS</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/card6.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">$804,950</h5>
+                <p class="card-text">2 bds | 2ba | 1,086 sqft | Active
+                    9212 D Roosevelt Way NE, Seattle, WA, 98115</p>
+                <p class="card-text"><small  >MLS ID =2210203, Grecia Themes. Listing provided by
+                        NWMLS</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/card2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">$804,950</h5>
+                <p class="card-text">2 bds | 2 ba | 1,088 sqft | Active 9210 B Roosevelt Way NE, Seattle, WA, 98115</p>
+                <p class="card-text"><small  >MLS ID =2210203, Grecia Themes. Listing provided by
+                        NWMLS</small></p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- <script>
+        // JavaScript to handle scrolling of card deck
+        document.getElementById('scrollLeft').addEventListener('click', function() {
+            document.querySelector('.card-deck').scrollBy({
+                left: -250,
+                behavior: 'smooth'
+            });
+        });
+
+        document.getElementById('scrollRight').addEventListener('click', function() {
+            document.querySelector('.card-deck').scrollBy({
+                left: 250,
+                behavior: 'smooth'
+            });
+        });
+    </script> -->
+</body>
+
+</html>
